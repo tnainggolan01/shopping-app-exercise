@@ -24,6 +24,14 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use("/", router);
 
+// Use the client-side public folder for static files
+app.use(express.static(__dirname + "/webclient/build"));
+
+// Render the React app for any path
+app.get("*", (req, res) => {
+  res.sendFile(__dirname + "/webclient/build/index.html");
+});
+
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
