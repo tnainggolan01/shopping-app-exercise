@@ -1,0 +1,9 @@
+{
+  "name": "shopping-app-exercise",
+  "version": "1.0.0",
+  "scripts": {
+    "install-server": "cd ./webserver && npm install",
+    "install-client": "cd ./webserver/webclient && npm install",
+    "install-all": "npm run install-server && npm run install-client"
+  }
+}

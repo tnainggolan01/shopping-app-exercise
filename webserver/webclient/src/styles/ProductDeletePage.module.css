@@ -1,0 +1,134 @@
+.wrapper {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.container h2 {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.form_group {
+  margin-bottom: 15px;
+}
+.product_item {
+  display: block;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.product_image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.product_name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.product_description {
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+  text-align: justify;
+  white-space: pre-wrap;
+}
+.product_price {
+  font-weight: bold;
+  color: #1877f2;
+  margin-bottom: 10px;
+}
+.product_info {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+.product_info div {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+.container label {
+  font-weight: bold;
+  width: 120px;
+  text-align: left;
+  margin: 0 10px 0 0;
+  /* padding-top: 3px; */
+}
+.content {
+  flex: 1;
+  text-align: left;
+}
+.button_group {
+  margin-top: 20px;
+  text-align: center;
+}
+.container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 5px;
+}
+.cancel_button {
+  background-color: grey;
+  color: white;
+  margin-right: 10px;
+}
+.delete_button {
+  background-color: red;
+  color: white;
+}
+.container button:active {
+  transform: scale(0.95);
+}
+.container button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+  .product_info div {
+    flex-direction: column;
+  }
+  .container label {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    min-width: 400px;
+  }
+  .container h2 {
+    font-size: 18px;
+  }
+  .container button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

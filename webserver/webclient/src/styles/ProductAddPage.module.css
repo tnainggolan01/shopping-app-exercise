@@ -1,0 +1,96 @@
+.wrapper {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.container h1 {
+  color: #1877f2;
+  margin-bottom: 20px;
+}
+.product_form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form_group {
+  margin-bottom: 15px;
+}
+.container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.container input[type="text"],
+.container input[type="number"],
+.container input[type="url"],
+.container textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.container textarea {
+  height: 100px;
+  resize: vertical;
+}
+.container button {
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 5px;
+}
+.container button:active {
+  transform: scale(0.95);
+}
+.container button:hover {
+  opacity: 0.9;
+}
+.submit_btn {
+  background-color: #1877f2;
+}
+.cancel_btn {
+  background-color: grey;
+  color: white;
+  margin-right: 10px;
+}
+.err_text {
+  font-size: 12px;
+  color: red;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    min-width: 400px;
+  }
+  .product_form {
+    box-shadow: none;
+  }
+  .container input[type="text"],
+  .container input[type="number"],
+  .container input[type="url"],
+  .container textarea,
+  .submit_btn {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,90 @@
+.wrapper {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.login_container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+.login_container h1 {
+  text-align: center;
+  color: #1877f2;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form_input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.login_container button {
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+.login_container button:active {
+  transform: scale(0.95);
+}
+#login {
+  background-color: #1877f2;
+  font-weight: bold;
+}
+#login:hover {
+  background-color: #166fe5;
+}
+#signup {
+  background-color: #42b72a;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+#signup:hover {
+  background-color: #3caa26;
+}
+.err_text {
+  font-size: 12px;
+  color: red;
+  margin: 0;
+}
+#separator {
+  border-bottom: 1px solid #dadde1;
+  margin-bottom: 1em;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  .login_container {
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+/* Smartphone styles */
+@media (max-width: 480px) {
+  .wrapper {
+    background-color: white;
+  }
+  .login_container {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: none;
+  }
+  .form input,
+  .login_container button {
+    font-size: 16px; /* Prevents zooming on iOS */
+  }
+}

@@ -1,0 +1,28 @@
+1.
+This punching bag comes with high-quality boxing gloves, so you can get started right away. The multilayer design includes a stainless steel tube stand, eco-friendly fabric buffer, high-density foam and premium polyurethane leather. You can easily move this punching bag anywhere.
+
+http://localhost:3000/product/66faf2e068f096ec6b996b5d (change this to the link in your app)
+
+2.
+Orgain protein powder is certified USDA organic, vegan and gluten-free. It's also soy-free, lactose-free, dairy-free and non-GMO. Each scoop has 21 grams of plant-based protein derived from pea, brown rice and chia seeds. Available in vanilla, chocolate, peanut butter and strawberries and cream flavors, the 4.5 star-rated protein powder is up to 41% for Amazon Prime Day. (PS: The most popular flavor is creamy chocolate fudge.)
+
+http://localhost:3000/product/66faf30e68f096ec6b996b5e (change this to the link in your app)
+
+3.
+BlenderBottle Classic V2 Shaker Bottle
+
+Who It's For
+Perfect for anyone who prefers a basic, no-frills shaker bottle that is durable and offers a secure grip.
+
+Why We Love It
+If you're looking for a no-frills bottle that will provide a smooth and satisfying pre- or post-workout shake, the BlenderBottle Radian Shaker Bottle is for you. We like the design of this bottle, especially the durable aluminum finish, secure grip, and wide mouth spout that allows for easy sipping. 
+
+The wire blending ball is standard but gets the job done. After 30 seconds of shaking, the liquid and protein powder were well-mixed. Simplicity was apparent across the board with this product, as a soap and water solution cleared out any residue with ease. We appreciate that the bottle is effortless to clean—an important feature in any shaker bottle.
+
+http://localhost:3000/product/66faf32c68f096ec6b996b5f (change this to the link in your app)
+
+4.
+The Fitbit Inspire 3 is the best fitness tracker for most people, offering comprehensive tracking, a vivid color display and a comfortable fit for less than $100.
+
+More about the product:
+https://www.cnn.com/cnn-underscored/reviews/fitbit-inspire-3

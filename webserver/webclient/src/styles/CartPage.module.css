@@ -1,0 +1,201 @@
+.wrapper {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container h1 {
+  color: #1877f2;
+  margin-bottom: 20px;
+}
+.cart_items {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.cart_item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f0f2f5;
+  padding: 15px 0;
+}
+.cart_item:last-child {
+  border-bottom: none;
+}
+.item_image {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+.item_details {
+  flex-grow: 1;
+}
+.item_name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.item_price {
+  color: #1877f2;
+}
+.item_quantity_settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+.item_quantity {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.quantity_btn {
+  background-color: #f0f2f5;
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.quantity_input {
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+}
+.remove_btn {
+  background-color: #f0f2f5;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 15px;
+  margin-top: 8px;
+  cursor: pointer;
+  width: 90%;
+}
+.cart_summary {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+.cart_total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.checkout_btn {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+.checkout_btn:hover {
+  background-color: #166fe5;
+}
+.container button:active {
+  transform: scale(0.95);
+}
+
+/* The Modal (background) */
+.atc_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* padding-top: 200px; Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.atc_modal_content_area {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  height: 300px;
+}
+.atc_modal_content {
+  margin: 50px auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+/* The Close Button */
+.modal_close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.modal_close:hover,
+.modal_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal_close_btn {
+  background-color: grey;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.modal_close_btn:hover,
+.modal_close_btn:focus {
+  color: #000;
+  text-decoration: none;
+}
+.modal_text {
+  color: red;
+  font-weight: bold;
+}
+.modal_totitems {
+  font-size: 1.2rem;
+  margin: 5px auto;
+}
+.modal_totprice {
+  font-weight: bold;
+  color: #1877f2;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  /* .cart_item {
+    flex-wrap: wrap;
+  } */
+  .item_quantity,
+  .remove_btn {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    min-width: 465px;
+  }
+  /* .container button {
+    font-size: 16px;
+  } */
+}
