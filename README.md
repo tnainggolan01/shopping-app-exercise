@@ -1,6 +1,6 @@
 # Shopping App Exercise
 
-This project is a full-stack shopping application built with the MERN (MongoDB, Express, React, Node.js) stack.
+This project is a full-stack shopping application built with the MERN (MongoDB, Express, React, Node.js) stack. You may access the live demo from this link: https://shopping-app-exercise.onrender.com/
 
 ## Disclaimer
 
