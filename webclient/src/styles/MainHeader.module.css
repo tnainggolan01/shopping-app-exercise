@@ -34,7 +34,7 @@
 .menu_item:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.logout_btn {
+.login_logout_btn {
   background-color: white;
   color: #1877f2;
   border: none;
@@ -43,10 +43,10 @@
   cursor: pointer;
   font-weight: bold;
 }
-.logout_btn:hover {
+.login_logout_btn:hover {
   background-color: #f0f2f5;
 }
-.logout_placeholder {
+.login_logout_placeholder {
   width: 78px;
 }
 

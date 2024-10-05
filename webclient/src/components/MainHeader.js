@@ -5,7 +5,7 @@ import css from "../styles/MainHeader.module.css";
 function MainHeader() {
   const navigate = useNavigate();
 
-  const handleLogout = () => {
+  const handleLoginLogout = () => {
     // Goto Login page and reset everything
     localStorage.removeItem("account");
     navigate("/login");
@@ -27,11 +27,13 @@ function MainHeader() {
           </Link>
         </nav>
         {localStorage.getItem("account") ? (
-          <button className={css.logout_btn} onClick={handleLogout}>
+          <button className={css.login_logout_btn} onClick={handleLoginLogout}>
             Logout
           </button>
         ) : (
-          <span className={css.logout_placeholder}></span>
+          <button className={css.login_logout_btn} onClick={handleLoginLogout}>
+            Login
+          </button>
         )}
       </div>
     </header>
