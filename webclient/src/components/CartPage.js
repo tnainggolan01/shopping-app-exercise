@@ -35,7 +35,8 @@ const CartItem = ({ idx, product }) => {
 
   useEffect(() => {
     setQuantity(product.quantity);
-  }, [product.quantity]);
+    // console.log(product);
+  }, [product]);
 
   let cartItem = {
     product: {
