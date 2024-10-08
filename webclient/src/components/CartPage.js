@@ -100,7 +100,11 @@ const CartItem = ({ idx, product }) => {
   return (
     <div className={css.cart_item}>
       <img
-        src={product.imgUrl}
+        src={
+          product.imgUrl
+            ? product.imgUrl
+            : "https://www.claudeusercontent.com/api/placeholder/80/80"
+        }
         alt={product.productName}
         className={css.item_image}
       />
