@@ -68,14 +68,14 @@ This is a shopping app built as a final project in a full-stack bootcamp from Sk
    - Whitelist your IP address in the MongoDB Atlas dashboard to allow access to your database
 
 6. Modify `index.js` in the root folder as needed:
-   - Comment out lines 27-33 if you want to work with the code in development mode. Afterwards, you can run the command below from the root folder, and then open another terminal and run the command again from the webclient folder.
+   - Comment out lines 27-33 if you want to work with the code in development mode. Afterwards, you can run the command below from the root folder, and then open another terminal and run the command again from the webclient folder. (You can also use "npm start" if you prefer using npm command)
      ```
-     npm start
+     yarn start
      ```
-   - You don't need to make any change if you want to work with production mode. You can run the build command below from the root folder, and then open another terminal to also run the "npm start" command from the webclient folder.
+   - You don't need to make any change if you want to work with production mode. You can run the build command below from the root folder. (You can also use "npm start" if you prefer using npm command)
      ```
      npm run build
-     npm start
+     yarn start
      ```
 
 ## Running the Application
