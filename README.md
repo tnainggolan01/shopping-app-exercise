@@ -1,10 +1,10 @@
 # Shopping App Exercise
 
-This project is a full-stack shopping application built with the MERN (MongoDB, Express, React, Node.js) stack. You may access the live demo from this link: https://shopping-app-exercise.onrender.com/ (you may need to wait for a minute or more until the page is fully loaded).
+This is a demo full-stack shopping application built with the MERN (MongoDB, Express, React, Node.js) stack. You may access the live demo from this link: https://shopping-app-exercise.onrender.com/ (you may need to wait for a minute or more until the page is fully loaded because the server is turned to sleep mode when there is no traffic).
 
 ## Disclaimer
 
-This is a shopping app built as a final project in a full-stack bootcamp from Skillspire that I attended. Since this is built in about 4-5 days, please do not expect to find anything fancy.
+This is a just a demo app created by the author as a mean to learn about React. Do not expect to find anything fancy.
 
 ## Features
 
